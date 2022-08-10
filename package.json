@@ -2,7 +2,7 @@
   "name": "@kosatyi/rollup",
   "description": "Rollup plugins bundle",
   "homepage": "https://github.com/kosatyi/rollup",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
   "files": [
