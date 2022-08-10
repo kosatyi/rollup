@@ -6,10 +6,11 @@ import ignore from 'rollup-plugin-ignore'
 import { terser } from 'rollup-plugin-terser'
 import scss from 'rollup-plugin-scss'
 import copy from 'rollup-plugin-copy'
-
+import sass from 'sass'
 
 export {
     utils,
+    sass,
     copy,
     scss,
     resolve,
