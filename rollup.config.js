@@ -1,8 +1,10 @@
 import pkg from './package.json'
 
+import typescript from '@rollup/plugin-typescript'
+
 export default {
     input: 'src/index.js',
-    external:[
+    external: [
         '@rollup/plugin-node-resolve',
         '@rollup/plugin-commonjs',
         '@rollup/plugin-babel',
@@ -13,7 +15,7 @@ export default {
         'rollup-plugin-scss',
         'rollup-plugin-copy',
         'sass',
-        'tslib'
+        'tslib',
     ],
     output: [
         {
@@ -24,5 +26,5 @@ export default {
             file: pkg.module,
             format: 'esm',
         },
-    ]
+    ],
 }
