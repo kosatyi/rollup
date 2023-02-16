@@ -8,10 +8,12 @@ export default {
         '@rollup/plugin-babel',
         '@rollup/pluginutils',
         '@rollup/plugin-terser',
+        '@rollup/plugin-typescript',
         'rollup-plugin-ignore',
         'rollup-plugin-scss',
         'rollup-plugin-copy',
-        'sass'
+        'sass',
+        'tslib'
     ],
     output: [
         {

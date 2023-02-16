@@ -1,21 +1,11 @@
-import utils from '@rollup/pluginutils';
-import resolve from '@rollup/plugin-node-resolve'
-import commonjs from '@rollup/plugin-commonjs'
-import babel from '@rollup/plugin-babel'
-import ignore from 'rollup-plugin-ignore'
-import terser from '@rollup/plugin-terser'
-import scss from 'rollup-plugin-scss'
-import copy from 'rollup-plugin-copy'
-import sass from 'sass'
+export {default as sass} from 'sass';
+export {default as tslib} from 'tslib';
 
-export {
-    utils,
-    sass,
-    copy,
-    scss,
-    resolve,
-    commonjs,
-    babel,
-    ignore,
-    terser
-}
+export {default as utils} from '@rollup/pluginutils';
+export {default as resolve} from '@rollup/plugin-node-resolve';
+export {default as commonjs} from '@rollup/plugin-commonjs';
+export {default as babel} from '@rollup/plugin-babel';
+export {default as ignore} from 'rollup-plugin-ignore';
+export {default as terser} from '@rollup/plugin-terser';
+export {default as scss} from 'rollup-plugin-scss';
+export {default as copy} from 'rollup-plugin-copy';
