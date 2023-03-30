@@ -7,9 +7,11 @@ import typescript from '@rollup/plugin-typescript'
 import ignore from 'rollup-plugin-ignore'
 import scss from 'rollup-plugin-scss'
 import copy from 'rollup-plugin-copy'
+import cleanup from 'rollup-plugin-cleanup'
 
 export {
     utils,
+    cleanup,
     copy,
     scss,
     resolve,

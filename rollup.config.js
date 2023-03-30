@@ -1,7 +1,5 @@
 import pkg from './package.json'
 
-import typescript from '@rollup/plugin-typescript'
-
 export default {
     input: 'src/index.js',
     external: [
@@ -14,6 +12,7 @@ export default {
         'rollup-plugin-ignore',
         'rollup-plugin-scss',
         'rollup-plugin-copy',
+        'rollup-plugin-cleanup',
         'sass',
         'tslib',
     ],

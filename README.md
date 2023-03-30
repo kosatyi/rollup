@@ -9,4 +9,5 @@
 'rollup-plugin-ignore' // ignore
 'rollup-plugin-scss' // scss
 'rollup-plugin-copy' // copy
+'rollup-plugin-cleanup' // cleanup
 ```
