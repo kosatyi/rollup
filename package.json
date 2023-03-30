@@ -3,6 +3,7 @@
   "description": "Rollup plugins bundle",
   "homepage": "https://github.com/kosatyi/rollup",
   "version": "0.0.7",
+  "type": "module",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
   "files": [
