@@ -1,5 +1,3 @@
-import pkg from './package.json'
-
 export default {
     input: 'src/index.js',
     external: [
@@ -18,11 +16,11 @@ export default {
     ],
     output: [
         {
-            file: pkg.main,
+            file: 'dist/index.cjs',
             format: 'cjs',
         },
         {
-            file: pkg.module,
+            file: 'dist/index.mjs',
             format: 'esm',
         },
     ],
