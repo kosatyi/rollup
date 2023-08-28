@@ -8,9 +8,11 @@ import ignore from 'rollup-plugin-ignore'
 import scss from 'rollup-plugin-scss'
 import copy from 'rollup-plugin-copy'
 import cleanup from 'rollup-plugin-cleanup'
+import watch from 'rollup-plugin-watch'
 
 export {
     utils,
+    watch,
     cleanup,
     copy,
     scss,
