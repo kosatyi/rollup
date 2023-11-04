@@ -11,7 +11,7 @@ import cleanup from 'rollup-plugin-cleanup'
 import watch from 'rollup-plugin-watch'
 import { promises as fs } from 'fs'
 
-export const packageJSON = (target, content) => {
+const packageJSON = (target, content) => {
     return {
         name: 'packageJSON',
         async buildEnd(err) {
@@ -23,6 +23,7 @@ export const packageJSON = (target, content) => {
 }
 
 export {
+    packageJSON,
     utils,
     watch,
     cleanup,
