@@ -13,7 +13,7 @@ import { promises as fs } from 'fs'
 
 const jsonFile = (target, content) => {
     return {
-        name: 'createFile',
+        name: 'jsonFile',
         async buildEnd(err) {
             if (!err) {
                 await fs.writeFile(target, JSON.stringify(content, null, 4))
