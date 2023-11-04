@@ -11,9 +11,9 @@ import cleanup from 'rollup-plugin-cleanup'
 import watch from 'rollup-plugin-watch'
 import { promises as fs } from 'fs'
 
-const packageJSON = (target, content) => {
+const jsonFile = (target, content) => {
     return {
-        name: 'packageJSON',
+        name: 'createFile',
         async buildEnd(err) {
             if (!err) {
                 await fs.writeFile(target, JSON.stringify(content, null, 4))
@@ -23,7 +23,7 @@ const packageJSON = (target, content) => {
 }
 
 export {
-    packageJSON,
+    jsonFile,
     utils,
     watch,
     cleanup,
