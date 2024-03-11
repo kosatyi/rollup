@@ -7,11 +7,13 @@ export default {
         '@rollup/pluginutils',
         '@rollup/plugin-terser',
         '@rollup/plugin-typescript',
+        '@rollup/plugin-json',
         'rollup-plugin-ignore',
         'rollup-plugin-scss',
         'rollup-plugin-copy',
         'rollup-plugin-cleanup',
         'sass',
+        'fs',
         'tslib',
     ],
     output: [
