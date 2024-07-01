@@ -11,7 +11,7 @@ import scss from 'rollup-plugin-scss'
 import copy from 'rollup-plugin-copy'
 import cleanup from 'rollup-plugin-cleanup'
 import watch from 'rollup-plugin-watch'
-import builtins from 'rollup-plugin-node-builtins'
+import globals from 'rollup-plugin-node-globals'
 
 const jsonFile = (target, content) => {
     return {
