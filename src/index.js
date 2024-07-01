@@ -38,5 +38,5 @@ export {
     babel,
     ignore,
     terser,
-    builtins,
+    globals,
 }
