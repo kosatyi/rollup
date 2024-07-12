@@ -12,7 +12,6 @@ export default {
         'rollup-plugin-scss',
         'rollup-plugin-copy',
         'rollup-plugin-cleanup',
-        'rollup-plugin-node-builtins',
         'rollup-plugin-watch',
         'sass',
         'fs',
