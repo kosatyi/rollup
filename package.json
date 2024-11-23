@@ -32,7 +32,7 @@
     "rollup-plugin-ignore": "^1.0.10",
     "rollup-plugin-scss": "^4.0.0",
     "rollup-plugin-watch": "^1.0.4",
-    "sass": "1.77.8",
+    "sass": "1.77.4",
     "tslib": "^2.6.2"
   },
   "repository": {
