@@ -13,6 +13,7 @@ export default {
         'rollup-plugin-copy',
         'rollup-plugin-cleanup',
         'rollup-plugin-watch',
+        'rollup-plugin-execute',
         'sass',
         'fs',
         'tslib',
